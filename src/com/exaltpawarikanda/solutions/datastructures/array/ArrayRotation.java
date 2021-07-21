@@ -3,7 +3,7 @@ package com.exaltpawarikanda.solutions.datastructures.array;
 public class ArrayRotation {
 
 
-    void rotate(int[] inputArray, int shift, int arraySize) {
+    public void rotate(int[] inputArray, int shift, int arraySize) {
 
         for (int i = 0; i < shift; i++) {
 
@@ -12,7 +12,7 @@ public class ArrayRotation {
 
     }
 
-    void leftRotationbyOne(int[] inputArray, int arraySize) {
+    public void leftRotationbyOne(int[] inputArray, int arraySize) {
         int temp = inputArray[0];
         for (int j = 0; j < arraySize - 1; j++) {
             inputArray[j] = inputArray[j + 1];
@@ -21,7 +21,7 @@ public class ArrayRotation {
     }
 
 
-    void print(int[] inputArray) {
+    public void print(int[] inputArray) {
         for (int num : inputArray) {
             System.out.print(num + " ");
         }

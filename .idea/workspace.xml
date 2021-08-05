@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2033c24-f69e-4bda-b52b-8106388ac9f2" name="Default Changelist" comment="Implemented the Queue data structure">
-      <change afterPath="$PROJECT_DIR$/src/com/exaltpawarikanda/solutions/questions/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exaltpawarikanda/solutions/questions/Prime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exaltpawarikanda/solutions/questions/ProfitTarget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exaltpawarikanda/solutions/questions/ProgrammerContest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exaltpawarikanda/solutions/questions/test.java" afterDir="false" />
+    <list default="true" id="c2033c24-f69e-4bda-b52b-8106388ac9f2" name="Default Changelist" comment="Answers to common programming questions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -191,15 +186,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.ArrayBasics" />
       <item itemvalue="Application.ArrayRotation" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrayBasics" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ArrayRotation" />
@@ -223,7 +228,11 @@
       <workItem from="1626979062126" duration="1750000" />
       <workItem from="1627250248368" duration="132000" />
       <workItem from="1627505607053" duration="53000" />
-      <workItem from="1627565442380" duration="670000" />
+      <workItem from="1627565442380" duration="1304000" />
+      <workItem from="1627759162903" duration="1178000" />
+      <workItem from="1627918107900" duration="632000" />
+      <workItem from="1628066109053" duration="17000" />
+      <workItem from="1628169004490" duration="587000" />
     </task>
     <task id="LOCAL-00001" summary="Added the iterating the array and changing array to list using generics">
       <created>1626813801824</created>
@@ -274,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627250364401</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Answers to common programming questions">
+      <created>1627653326519</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1627653326519</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -343,7 +359,8 @@
     <MESSAGE value="Implemention of Linked List using nodes" />
     <MESSAGE value="Implemented the stack data structure" />
     <MESSAGE value="Implemented the Queue data structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented the Queue data structure" />
+    <MESSAGE value="Answers to common programming questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Answers to common programming questions" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">

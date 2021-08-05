@@ -18,8 +18,9 @@ public class Test extends Customer{
     public static void main(String[] args) throws CloneNotSupportedException {
         Test test1 = new Test();
         Test test2 = new Test();
-        Object test3 = test1.clone();
-        System.out.println(test1 == test3);
+        //Test test3 = (Test) test1.clone();
+        System.out.println(test1 == test2);
+        System.out.println(test1.equals(test2));
     }
 
 }

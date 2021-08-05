@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2033c24-f69e-4bda-b52b-8106388ac9f2" name="Default Changelist" comment="Answers to common programming questions">
+    <list default="true" id="c2033c24-f69e-4bda-b52b-8106388ac9f2" name="Default Changelist" comment="Answers to common interview questions">
+      <change afterPath="$PROJECT_DIR$/src/com/exaltpawarikanda/solutions/interview/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exaltpawarikanda/solutions/interview/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exaltpawarikanda/solutions/interview/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +138,7 @@
       <recent name="com.exaltpawarikanda.solutions.datastructures.array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayBasics">
+  <component name="RunManager" selected="Application.Test (1)">
     <configuration name="ArrayBasics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exaltpawarikanda.solutions.datastructures.array.ArrayBasics" />
       <module name="DataStructuresAndAlgorithms" />
@@ -173,6 +175,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exaltpawarikanda.solutions.interview.Test" />
+      <module name="DataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exaltpawarikanda.solutions.interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exaltpawarikanda.solutions.Test" />
       <module name="DataStructuresAndAlgorithms" />
@@ -202,9 +217,11 @@
       <item itemvalue="Application.ArrayRotation" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Test (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ArrayRotation" />
@@ -233,6 +250,7 @@
       <workItem from="1627918107900" duration="632000" />
       <workItem from="1628066109053" duration="17000" />
       <workItem from="1628169004490" duration="587000" />
+      <workItem from="1628187457651" duration="1173000" />
     </task>
     <task id="LOCAL-00001" summary="Added the iterating the array and changing array to list using generics">
       <created>1626813801824</created>
@@ -290,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627653326519</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Answers to common interview questions">
+      <created>1628187595961</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1628187595961</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -360,7 +385,8 @@
     <MESSAGE value="Implemented the stack data structure" />
     <MESSAGE value="Implemented the Queue data structure" />
     <MESSAGE value="Answers to common programming questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Answers to common programming questions" />
+    <MESSAGE value="Answers to common interview questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Answers to common interview questions" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">

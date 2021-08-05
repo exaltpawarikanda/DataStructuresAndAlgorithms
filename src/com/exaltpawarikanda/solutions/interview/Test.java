@@ -3,10 +3,23 @@ package com.exaltpawarikanda.solutions.interview;
 /**
  * Created by Exalt Pawarikanda on 8/5/21
  */
-public class Test {
+public class Test extends Customer{
 
-    public static void main(String[] args) {
+    @Override
+    public String setCustomerId(){
+        return "GS243414414141K";
+    }
 
+    @Override
+    public String setCustomerName(){
+        return "Joe Dor";
+    }
+
+    public static void main(String[] args) throws CloneNotSupportedException {
+        Test test1 = new Test();
+        Test test2 = new Test();
+        Object test3 = test1.clone();
+        System.out.println(test1 == test3);
     }
 
 }

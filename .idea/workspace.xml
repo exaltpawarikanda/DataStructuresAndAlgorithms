@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2033c24-f69e-4bda-b52b-8106388ac9f2" name="Default Changelist" comment="String reverse using arrays">
-      <change beforePath="$PROJECT_DIR$/src/com/exaltpawarikanda/solutions/datastructures/array/StringReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exaltpawarikanda/solutions/datastructures/array/StringReverse.java" afterDir="false" />
+    <list default="true" id="c2033c24-f69e-4bda-b52b-8106388ac9f2" name="Default Changelist" comment="Implementation using StringBuffer">
+      <change afterPath="$PROJECT_DIR$/src/com/exaltpawarikanda/solutions/datastructures/array/MergeTwoSorted2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,6 +137,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -145,7 +153,7 @@
       <recent name="com.exaltpawarikanda.solutions.datastructures.array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringReverse">
+  <component name="RunManager" selected="Application.MergeTwoSorted2">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -170,12 +178,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="MergeTwoSorted2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exaltpawarikanda.solutions.datastructures.array.MergeTwoSorted2" />
       <module name="DataStructuresAndAlgorithms" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exaltpawarikanda.solutions.datastructures.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -220,19 +231,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.CarTest" />
       <item itemvalue="Application.StringReverse" />
+      <item itemvalue="Application.MergeTwoSorted2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeTwoSorted2" />
         <item itemvalue="Application.StringReverse" />
         <item itemvalue="Application.CarTest" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +269,7 @@
       <workItem from="1628066109053" duration="17000" />
       <workItem from="1628169004490" duration="587000" />
       <workItem from="1628187457651" duration="6845000" />
-      <workItem from="1654203190506" duration="304000" />
+      <workItem from="1654203190506" duration="2363000" />
     </task>
     <task id="LOCAL-00001" summary="Added the iterating the array and changing array to list using generics">
       <created>1626813801824</created>
@@ -344,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654203345798</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Implementation using StringBuffer">
+      <created>1654203502375</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1654203502375</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -417,7 +435,8 @@
     <MESSAGE value="Overriding in Java" />
     <MESSAGE value="Implementing .equals() and == equality operator" />
     <MESSAGE value="String reverse using arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="String reverse using arrays" />
+    <MESSAGE value="Implementation using StringBuffer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementation using StringBuffer" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">

@@ -5,12 +5,16 @@ public class MergeTwoSorted2 {
 
         int[] numbers1 = {0,3,4,31};
         int[] numbers2 = {4,6,30,90,99,108};
-        mergeSortedArray(numbers1, numbers2);
-
+        int[] mergedArray = mergeSortedArray(numbers1, numbers2);
+        System.out.print("[ ");
+        for(int num : mergedArray) {
+            System.out.print(num + " ");
+        }
+        System.out.print("]");
     }
 
 
-    public static void mergeSortedArray(int[] array1, int[] array2){
+    public static int[] mergeSortedArray(int[] array1, int[] array2){
 
         int pointerArray1 = 0;
         int pointerArray2 = 0;
@@ -19,6 +23,13 @@ public class MergeTwoSorted2 {
         int[] mergedArray = new int[sizeArray1 + sizeArray2];
         int pointerMergedArray = 0;
 
+        if(sizeArray1 == 0){
+            return array2;
+        }
+
+        if(sizeArray2 == 0){
+            return array1;
+        }
 
         do{
             if(array1[pointerArray1] < array2[pointerArray2]){
@@ -43,12 +54,8 @@ public class MergeTwoSorted2 {
             pointerMergedArray++;
         }
 
-        System.out.print("[ ");
-        for(int num : mergedArray) {
-            System.out.print(num + " ");
-        }
-        System.out.print("]");
 
+       return mergedArray;
     }
 
 }

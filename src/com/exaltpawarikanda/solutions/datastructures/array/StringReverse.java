@@ -3,9 +3,7 @@ package com.exaltpawarikanda.solutions.datastructures.array;
 public class StringReverse {
 
     public static void main(String[] args){
-
         reverse("How are you");
-
     }
 
 
@@ -23,6 +21,10 @@ public class StringReverse {
             System.out.println(String.valueOf(strCharacters));
         }
 
+        //another implementation using StringBuffer:
+        StringBuffer sbf = new StringBuffer(str);
+        sbf.reverse();
+        System.out.println(sbf);
 
     }
 }

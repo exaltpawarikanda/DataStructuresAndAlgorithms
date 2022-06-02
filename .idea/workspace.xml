@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2033c24-f69e-4bda-b52b-8106388ac9f2" name="Default Changelist" comment="Implementing .equals() and == equality operator">
-      <change afterPath="$PROJECT_DIR$/src/com/exaltpawarikanda/solutions/interview/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exaltpawarikanda/solutions/interview/Allion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exaltpawarikanda/solutions/interview/BaseUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exaltpawarikanda/solutions/interview/Belta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exaltpawarikanda/solutions/interview/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exaltpawarikanda/solutions/interview/CarTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/exaltpawarikanda/solutions/interview/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exaltpawarikanda/solutions/interview/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/exaltpawarikanda/solutions/interview/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exaltpawarikanda/solutions/interview/Test.java" afterDir="false" />
+    <list default="true" id="c2033c24-f69e-4bda-b52b-8106388ac9f2" name="Default Changelist" comment="String reverse using arrays">
+      <change beforePath="$PROJECT_DIR$/src/com/exaltpawarikanda/solutions/datastructures/array/StringReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exaltpawarikanda/solutions/datastructures/array/StringReverse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +39,12 @@
         <option value="$PROJECT_DIR$/src/com/exaltpawarikanda/solutions/datastructures/stack/Stack.java" />
       </list>
     </option>
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="minikube" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -129,6 +127,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -258,6 +258,7 @@
       <workItem from="1628066109053" duration="17000" />
       <workItem from="1628169004490" duration="587000" />
       <workItem from="1628187457651" duration="6845000" />
+      <workItem from="1654203190506" duration="304000" />
     </task>
     <task id="LOCAL-00001" summary="Added the iterating the array and changing array to list using generics">
       <created>1626813801824</created>
@@ -336,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628189014882</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="String reverse using arrays">
+      <created>1654203345798</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1654203345798</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -395,7 +403,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added the iterating the array and changing array to list using generics" />
@@ -409,7 +416,8 @@
     <MESSAGE value="Answers to common interview questions" />
     <MESSAGE value="Overriding in Java" />
     <MESSAGE value="Implementing .equals() and == equality operator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementing .equals() and == equality operator" />
+    <MESSAGE value="String reverse using arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="String reverse using arrays" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">

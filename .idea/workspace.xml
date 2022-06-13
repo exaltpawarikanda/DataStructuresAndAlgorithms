@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4f1a148-2f65-4f03-91ca-deca1fef6735" name="Changes" comment="Implement code to find the first recurring number in an array">
-      <change afterPath="$PROJECT_DIR$/src/com/exaltpawarikanda/solutions/datastructures/leetcode/alg/arrays/MaxConsecutiveOnes.java" afterDir="false" />
+    <list default="true" id="e4f1a148-2f65-4f03-91ca-deca1fef6735" name="Changes" comment="Implement code to find maximum number of consecutive 1's in the array">
+      <change afterPath="$PROJECT_DIR$/src/com/exaltpawarikanda/solutions/datastructures/leetcode/alg/arrays/EvenNumberOfDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exaltpawarikanda/solutions/datastructures/leetcode/alg/marker" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/exaltpawarikanda/solutions/datastructures/array/ArrayBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exaltpawarikanda/solutions/datastructures/array/ArrayBasics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exaltpawarikanda/solutions/datastructures/leetcode/alg/arrays/MaxConsecutiveOnes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exaltpawarikanda/solutions/datastructures/leetcode/alg/arrays/MaxConsecutiveOnes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +24,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="KubernetesApiPersistence">
     <option name="context" value="minikube" />
@@ -46,13 +55,39 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.CommonCharacter">
+  <component name="RunManager" selected="Application.EvenNumberOfDigits">
     <configuration name="CommonCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exaltpawarikanda.solutions.datastructures.hashTables.CommonCharacter" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.exaltpawarikanda.solutions.datastructures.hashTables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EvenNumberOfDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exaltpawarikanda.solutions.datastructures.leetcode.alg.arrays.EvenNumberOfDigits" />
+      <module name="DataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exaltpawarikanda.solutions.datastructures.leetcode.alg.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxConsecutiveOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exaltpawarikanda.solutions.datastructures.leetcode.alg.arrays.MaxConsecutiveOnes" />
+      <module name="DataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exaltpawarikanda.solutions.datastructures.leetcode.alg.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,9 +125,13 @@
       <item itemvalue="Application.MergeTwoSorted2" />
       <item itemvalue="Application.RecurringCharacter" />
       <item itemvalue="Application.CommonCharacter" />
+      <item itemvalue="Application.MaxConsecutiveOnes" />
+      <item itemvalue="Application.EvenNumberOfDigits" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EvenNumberOfDigits" />
+        <item itemvalue="Application.MaxConsecutiveOnes" />
         <item itemvalue="Application.CommonCharacter" />
         <item itemvalue="Application.RecurringCharacter" />
         <item itemvalue="Application.MergeTwoSorted2" />
@@ -121,9 +160,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654594217973</updated>
-      <workItem from="1654594217974" duration="1742000" />
+      <workItem from="1654594217974" duration="4754000" />
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implement code to find maximum number of consecutive 1's in the array">
+      <created>1655114446038</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655114446039</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +189,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding condition to check if 1 of the array has no elements" />
     <MESSAGE value="Implement code to find the first recurring number in an array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement code to find the first recurring number in an array" />
+    <MESSAGE value="Implement code to find maximum number of consecutive 1's in the array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement code to find maximum number of consecutive 1's in the array" />
   </component>
 </project>

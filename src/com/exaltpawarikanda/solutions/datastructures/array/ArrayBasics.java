@@ -11,7 +11,7 @@ public class ArrayBasics {
      * For-each loops are not appropriate when you want to modify the array:
      * For-each loops do not keep track of index. So we can not obtain array index using For-Each loop
      * For-each only iterates forward over the array in single steps
-     * For-each cannot process two decision making statements at once
+     * For-each cannot process two decision-making statements at once
      * For-each also has some performance overhead over simple iteration:
      * */
     public static int maximum(int[] numbers)

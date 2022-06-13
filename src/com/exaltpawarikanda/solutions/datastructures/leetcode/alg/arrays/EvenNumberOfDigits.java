@@ -21,6 +21,12 @@ package com.exaltpawarikanda.solutions.datastructures.leetcode.alg.arrays;
  * Output: 1
  * Explanation:
  * Only 1771 contains an even number of digits.
+ *
+ *
+ * Constraints:
+ *
+ * 1 <= nums.length <= 500
+ * 1 <= nums[i] <= 105
  */
 public class EvenNumberOfDigits {
 
@@ -46,4 +52,28 @@ public class EvenNumberOfDigits {
         }
         return result;
     }
+
+
+        //SOLUTION 2
+     /*   int result = 0;
+        for(int num: nums){
+            if(String.valueOf(num).length() % 2 == 0){
+                result++;
+            }
+        }
+        return result;
+    }*/
+
+        //SOLUTION 3 : Paying attention to constraints
+   /*     int count = 0;
+
+        for (int i = 0; i < nums.length; i++) {
+
+            if ((nums[i] > 9 && nums[i] < 100) || (nums[i] > 999 && nums[i] < 10000) || nums[i] == 100000) {
+                count++;
+            }
+        }
+
+        return count;
+    }*/
 }
